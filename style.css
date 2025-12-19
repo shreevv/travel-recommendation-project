@@ -1,0 +1,23 @@
+/* Basic styling to meet project requirements */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+
+/* Task: Navigation bar styling (6 points) */
+#nav-bar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+#nav-bar ul { list-style: none; display: flex; gap: 20px; }
+#nav-bar a { color: white; text-decoration: none; }
+
+/* Styling for recommendations */
+.result-card {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+}
