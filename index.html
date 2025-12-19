@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom | Discover Your Next Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <div class="logo">TravelBloom</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="conditionInput" placeholder="Enter destination or keyword (beach, temple, country)...">
+            <button id="btnSearch">Search</button>
+            <button id="btnClear">Clear</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home-intro">
+            <h1>Explore the World Like Never Before</h1>
+            <p>Welcome to TravelBloom, your ultimate companion in discovering breathtaking destinations. Whether you seek the serenity of a beach, the spirituality of a temple, or the culture of a new country, we provide personalized recommendations to make your next trip unforgettable.</p>
+        </section>
+
+        <div id="resultContainer"></div>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
